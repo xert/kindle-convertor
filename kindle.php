@@ -90,6 +90,7 @@ if ($result) {
 	}
     
 } else {
+    $images = array();
     $title   = 'Error :-(';
 	$content = 'Looks like we couldn\'t find the content. :(';
 }
